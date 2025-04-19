@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>БитБот</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>БитБот</h1>
+    <p>Добро пожаловать в крипто-центр прямо в Telegram!</p>
+
+    <div class="button-group">
+        <button onclick="sendAction('rates')">📈 Курсы</button>
+        <button onclick="sendAction('portfolio')">💼 Портфель</button>
+        <button onclick="sendAction('convert')">💱 Конвертер</button>
+    </div>
+
+    <p id="status"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
